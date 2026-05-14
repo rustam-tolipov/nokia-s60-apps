@@ -1,0 +1,38 @@
+# Build output
+moc/
+obj/
+tmp/
+ui/
+build-*/
+*-build-simulator*/
+ABLD.BAT
+Makefile
+Makefile*.mk
+bld.inf
+
+# Binaries and packages
+*.sis
+*.sisx
+*.pkg
+!*_template.pkg
+!*_installer.pkg
+!*_stub.pkg
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+
+# Nokia Anna / Symbian^3 projects (tracked in nokia-anna-bella-apps)
+anything/
+archery/
+fitness-app/
+tasbeeh/
+test/
+
+# Scratch / abandoned
+tasbeeh95/
+e72test/
+e72test-build-simulator/
+anything-build-simulator*/
+tasbeeh-build-simulator*/
+test-build-simulator*/
