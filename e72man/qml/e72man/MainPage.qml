@@ -17,7 +17,8 @@ Rectangle {
         { name: "GPS",           url: "GpsPage.qml",        color: "#ccaa44" },
         { name: "System Info",   url: "SystemInfoPage.qml", color: "#4488cc" },
         { name: "Storage",       url: "StoragePage.qml",    color: "#4488cc" },
-        { name: "Network",       url: "NetworkPage.qml",    color: "#44aacc" }
+        { name: "Network",       url: "NetworkPage.qml",    color: "#44aacc" },
+        { name: "Battery",       url: "BatteryPage.qml",    color: "#44cc44" }
     ]
 
     Keys.onPressed: {

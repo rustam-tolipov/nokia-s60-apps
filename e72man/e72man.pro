@@ -18,7 +18,6 @@ HEADERS += navigator.h \
     vibrationhelper.h
 
 symbian:TARGET.CAPABILITY += NetworkServices ReadUserData Location
-symbian:LIBS += -lhwrmvibraclient
 
 include(qmlapplicationviewer/qmlapplicationviewer.pri)
 qtcAddDeployment()

@@ -3,6 +3,7 @@ moc/
 obj/
 tmp/
 ui/
+.make.cache
 build-*/
 *-build-simulator*/
 ABLD.BAT
